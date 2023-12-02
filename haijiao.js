@@ -32,7 +32,7 @@
     https://www.haijiao.com/
 ******************************************
 
-hostname = *hj*,*haijiao*,*hjad
+hostname = *hj*,*haijiao2023*,*hjad
 10*
 
 ^http[s]?:\/\/.*(haijiao|hj).+api\/(topic.+\d+|attachment|login\/signin|user\/(current|info\/\d+)|banner\/banner_list)$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/haijiao.js
